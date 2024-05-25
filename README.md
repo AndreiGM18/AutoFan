@@ -15,7 +15,7 @@ Acest proiect este o implementare a unui sistem de control al temperaturii și a
 
 ## Cum să folosești
 1. Conectează placa Arduino la componentele hardware necesare conform diagramei de cablare.
-2. Încarcă codul din fișierul `control_automatizat_temperatura_ventilator.ino` pe placa Arduino folosind Arduino IDE sau un alt mediu de dezvoltare.
+2. Încarcă codul din fișierul "AutoFan_version3.ino" pe placa Arduino folosind Arduino IDE sau un alt mediu de dezvoltare.
 3. Asigură-te că toate componentele sunt conectate corect și porniți sistemul.
 4. Utilizați telecomanda IR pentru a seta pragurile de temperatură și de timp și pentru a controla sistemul în funcție de preferințele dvs.
 5. Urmați instrucțiunile de pe afișajul LCD pentru a monitoriza starea sistemului și a temperaturii.
