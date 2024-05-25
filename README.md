@@ -20,10 +20,20 @@ Acest proiect este o implementare a unui sistem de control al temperaturii și a
 4. Utilizați telecomanda IR pentru a seta pragurile de temperatură și de timp și pentru a controla sistemul în funcție de preferințele dvs.
 5. Urmați instrucțiunile de pe afișajul LCD pentru a monitoriza starea sistemului și a temperaturii.
 
-## Cerințe de Sistem
-- Placă Arduino compatibilă (de exemplu, Arduino Uno)
-- Senzor de temperatură
-- Ventilator
-- Afișaj LCD
-- Receptor IR și telecomandă IR
-- Componente hardware suplimentare (rezistoare, fire etc.)
+## Cerințe Hardware
+- 1 x Arduino Uno (Plusivo Uno R3) - Placa principală, ce alimentează toate componentele (cu excepția motorului)
+- 1 x placă de cablaj
+- 1 x termorezistor - Senzor de temperatură
+- 1 x modul LCD1602 - Afișează diferite informații utile (temperatura curentă, temperatura de threshold, modul de funcționare etc.)
+- 1 x potențiometru (10K) - Reglează contrastul LCD-ului
+- 1 x L293D IC - Controlează motorul
+- 1 x lamă de ventilator
+- 1 x motor 3-6V - Folosit ca ventilator împreună cu lama
+- 1 x modul de alimentare
+- 1 x baterie 9V - Alimentează ventilatorul împreună cu modulul și adaptorul
+- 1 x adaptor 9V 1A
+- 1 x fotodiodă - Senzor de lumină
+- 2 x LEDs (1 x roșu, 1 x albastru) - Indică modul de funcționare
+- 1 x modul receptor pentru telecomandă infraroșu
+- 1 x telecomandă infraroșu - Facilitează controlul temperaturii de threshold și a modului de funcționare
+- rezistori (220 Ω, 1K etc.) și fire
