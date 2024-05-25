@@ -180,7 +180,7 @@ void loop() {
   lcd.setCursor(0, 1);
   lcd.print((int)temperature);
   lcd.print("*C ");
-  lcd.print(dark ? "D " : "L ");
+  lcd.print(dark ? "L " : "D ");
   if (autoOffEnabled) {
     lcd.print(remainingTime);
     lcd.print("   "); // Clear remaining characters
