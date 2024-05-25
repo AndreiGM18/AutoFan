@@ -1,7 +1,7 @@
 Nume: Mitran Andrei-Gabriel
 Grupă: 333CA
 
-# Control Automatizat al Temperaturii și Ventilatorului
+# AutoFan v3
 
 ## Descriere
 Acest proiect este o implementare a unui sistem de control al temperaturii și al ventilatorului, folosind o placă Arduino și componente hardware adiționale. Scopul sistemului este de a menține temperatura într-un anumit interval, activând sau dezactivând ventilatorul în funcție de setările utilizatorului și de condițiile de mediu.
